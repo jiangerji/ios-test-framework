@@ -99,6 +99,8 @@ Pod::Spec.new do |s|
   s.subspec 'QMCrashKit' do |c|
     c.source_files  = "QMCrashKit/*.{h,m}"
     c.platform = :ios, "9.0"
+    c.dependency 'Fabric', '1.7.3'
+    c.dependency 'Crashlytics', '3.10.0'
   end
 
 
