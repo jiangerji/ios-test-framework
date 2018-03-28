@@ -10,6 +10,7 @@
 #define NSObject_QMSwizzle_h
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 
 #import "QMCrashKit.h"
 
